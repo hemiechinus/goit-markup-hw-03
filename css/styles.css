@@ -7,9 +7,6 @@
   --portfolo-button: #f5f4fa;
 }
 
-* {
-  box-sizing: border-box;
-}
 .body {
   width: 1600px;
   font-family: "Roboto", "Raleway";
@@ -17,16 +14,14 @@
   color: var(--color);
   background-color: var(--color-w);
 }
-ul {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-  color: inherit;
+.container {
+  width: 1200px;
+  padding: 0 15px;
 }
 address {
   font-style: normal;
 }
+
 /*logo*/
 .logo {
   font-family: "Raleway";
@@ -47,7 +42,38 @@ address {
   color: var(--color-text);
 }
 /*меню навігації*/
+/**/
+.header-list {
+  display: inline-flex;
+  justify-content: space-between;
+}
+.nav {
+  display: inline-flex;
+  align-items: center;
+}
+.social-links {
+  display: inline-flex;
+  margin-left: 93px;
+  margin-right: 331px;
+}
+.social-links li:not(:last-child) {
+  margin-right: 50px;
+}
+.contacts-list {
+  display: inline-flex;
+}
+.contacts-list li:not(:first-child) {
+  margin-left: 50px;
+}
+/*  
+.logo {
+  display: flex;
+  align-items: center;
+}
 
+
+ */
+/**/
 .link:hover,
 .link:focus {
   color: var(--color-link);
@@ -58,10 +84,7 @@ address {
 .links {
   color: var(--color-text);
 }
-/*контакти*/ /* колі посилань
-.contact-links {
-  color: var(--color-text); 
-}*/
+
 /*section banner*/
 .button {
   cursor: pointer;
@@ -78,6 +101,7 @@ address {
   color: var(--color-w);
 }
 .banner-text {
+  width: 696px;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
