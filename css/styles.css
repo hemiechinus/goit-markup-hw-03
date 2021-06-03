@@ -121,6 +121,8 @@ address {
   border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  display: block;
+  text-align: center;
 }
 /* buttons portfolio*/
 .portfolio-buttons {
@@ -185,6 +187,7 @@ address {
   text-align: center;
   padding-bottom: 50px;
 }
+
 .title-img {
   display: flex;
 }
