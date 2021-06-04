@@ -150,8 +150,8 @@ address {
   border: 0px;
 }
 .buttons:hover,
-.buttons:focus {
-  background-color: var(--color-link);
+/*.buttons:focus*/ {
+  background: var(--color-link);
   color: var(--color-w);
 }
 /*portfolio*/
@@ -237,7 +237,7 @@ address {
 .footer {
   background-color: var(--color-banner);
   color: var(--color-w);
-  font-size: 14px;
+  font-size: 14px
   line-height: 1.71;
   letter-spacing: 0.03em;
   padding-top: 60px;
