@@ -12,6 +12,7 @@
   font-style: normal;
   color: var(--color);
   background-color: var(--color-w);
+  max-width: 1600px;
 }
 
 address {
@@ -24,6 +25,10 @@ address {
 }
 .port {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header .container {
+  display: flex;
+  align-items: center;
 }
 .navlist {
   display: flex;
@@ -131,8 +136,6 @@ address {
 }
 .filter {
   background-color: var(--portfolo-button);
-  border-radius: 4px;
-  padding: 6px 22px;
 }
 .filter:not(:first-child) {
   margin-left: 8px;
@@ -147,7 +150,10 @@ address {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  border: 0px;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 22px;
 }
 .buttons:hover,
 .buttons:focus {
@@ -237,7 +243,7 @@ address {
 .footer {
   background-color: var(--color-banner);
   color: var(--color-w);
-  font-size: 14px
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   padding-top: 60px;
@@ -266,8 +272,8 @@ address {
 .examples-item {
   /*це наш item*/
   margin-left: 30px;
-  margin-top: 30px;
-  flex-basis: cacl((1200- 90px)/ 3);
+  margin-top: 30px; /*
+  flex-basis: cacl((1200- 90px)/3); */
 }
 .discription {
   padding: 20px 24px;
