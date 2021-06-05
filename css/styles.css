@@ -150,7 +150,7 @@ address {
   border: 0px;
 }
 .buttons:hover,
-/*.buttons:focus*/ {
+.buttons:focus {
   background: var(--color-link);
   color: var(--color-w);
 }
