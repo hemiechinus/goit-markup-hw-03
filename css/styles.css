@@ -24,7 +24,7 @@ address {
   margin: 0 auto;
 }
 .port {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(0 0 0/25%);
 }
 .header .container {
   display: flex;
@@ -124,7 +124,6 @@ address {
   margin-top: 30px;
   border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   display: block;
   text-align: center;
 }
@@ -132,10 +131,11 @@ address {
 .portfolio-buttons {
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .filter {
   background-color: var(--portfolo-button);
+  border-radius: 4px;
 }
 .filter:not(:first-child) {
   margin-left: 8px;
@@ -223,14 +223,14 @@ address {
   border-radius: 0px 0px 4px 4px;
 }
 .desc {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
   line-height: 1.19;
 }
 .people-name {
   font-weight: 500;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   font-size: 16px;
 }
 .people-text {
@@ -252,10 +252,10 @@ address {
 
 .adress p {
   margin-top: 20px;
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 .adress-contacts li:not(:last-child) {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 .lin {
   color: rgba(255, 255, 255, 0.6);
@@ -274,6 +274,9 @@ address {
   margin-left: 30px;
   margin-top: 30px; /*
   flex-basis: cacl((1200- 90px)/3); */
+}
+.examples-item img {
+  display: block;
 }
 .discription {
   padding: 20px 24px;
